@@ -1,0 +1,16 @@
+nota_1= (int(input("ingrese la primera nota")))
+nota_2= (int(input("ingrese la segunda nota")))
+nota_3= (int(input("ingrese la tercera nota")))
+nota_4= (int(input("ingrese la cuarta nota")))
+nota_5= (int(input("ingrese la quinta nota")))
+promedio= ((nota_1*0.1)+(nota_2*0.15)+(nota_3*0.25)+(nota_4*0.15)+(nota_5*0.35))
+if promedio>=3:
+	print("aprobo")
+else:
+	print ("reprobo")
+if promedio<2:
+			print("no puede habilitar")
+if promedio>=4.5:
+	print ("felicitaciones")
+
+print("gracias por usar este sensillo pero educativo programa")

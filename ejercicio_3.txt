@@ -1,0 +1,9 @@
+n1=int(input("digite el primer numero"))
+n2=int(input("digite el segundo numero"))
+
+if n1>n2:
+  print(str(n1) + " es mayor " + str(n2))
+elif n1==n2:
+  print("Los numeros son iguales")
+else:
+  print(str(n2) + " es mayor " + str(n1))
